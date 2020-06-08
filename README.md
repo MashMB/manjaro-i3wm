@@ -34,3 +34,4 @@ All configuration files can be found in **manjaro** directory. They are placed i
 8. **/etc/i3status.conf** - rising i3bar with custom Font Awesome icons
 9. **/home/[user_name]/.config/compton.conf** - file deleted to use **picom** instead
 10. **/home/[user_name]/.config/picom.conf** - unfocused container is a little bit transparent, transition animations, Intel GPU fix for execution
+11. **/home/.local/share/fonts/...** - fonts for proper work of **powerlevel10k** ZSH theme
