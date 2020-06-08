@@ -1,0 +1,46 @@
+conky.config = {
+	alignment = 'bottom_left',
+	background = true,
+	color2 = '5D7B86',
+	cpu_avg_samples = 2,
+	default_color = 'F9FAF9',
+	double_buffer = true,
+	font = 'Arial:size=8',
+	draw_shades = false,
+	gap_x = 25,
+	gap_y = 25,
+	minimum_width = 200,
+	no_buffers = true,
+	own_window = true,
+	own_window_type = 'override',
+	own_window_transparent = true,
+	update_interval = 2.0,
+	use_xft = true,
+}
+conky.text = [[
+${color2}open new terminal - ${color}mod+Enter
+${color2}kill focused - ${color}mod+Shift+q
+${color2}open browser - ${color}mod+F2
+${color2}open file manager - ${color}mod+F3
+${color2}open alsamixer - ${color}mod+Ctrl+m
+${color2}toggle split direction - ${color}mod+h/v/q
+${color2}toggle container layout - ${color}mod+s/w/e
+${color2}toggle sticky - ${color}mod+Shift+s
+${color2}rofi - ${color}mod+d
+${color2}bmenu - ${color}mod+Ctrl+b
+${color2}morc menu - ${color}mod+z
+${color2}switch to workspace 1-10 - ${color}mod+1-0
+${color2}switch to workspace 11-20 - ${color}mod+Alt+1-0
+${color2}send to workspace 1-10 - ${color}mod+Ctrl+1-0
+${color2}send to workspace 11-20 - ${color}mod+Ctrl+Alt+1-0
+${color2}navigate workspaces - ${color}mod+Ctrl+arrows
+${color2}toggle floating - ${color}mod+Shift+Space
+${color2}center resized - ${color}mod+c
+${color2}change window appearance - ${color}mod+y/n
+${color2}window changer - ${color}mod+Tab
+${color2}lock - ${color}mod+Escape
+${color2}exit - ${color}mod+Shift+p
+
+${color2}help - ${color}mod+Shift+h
+mod = <Super>
+]]

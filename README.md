@@ -38,4 +38,5 @@ All configuration files can be found in **manjaro** directory. They are placed i
 12. **/home/[user_name]/.Xresources** - bigger font for **urxvt** terminal and **powerlevel10k** ZSH theme handling
 13. **/home/[user_name]/.bashrc** - run **neofetch** on terminal start-up
 14. **/home/[user_name]/.zshrc** - **powerlevel10k** ZSH theme with autocomplete and output coloring configuration
-
+15. **/usr/share/conky/conky1.10_shortcuts_maia** - font settings and description for more shortcuts
+16. **/usr/share/conky/conky_maia** - font settings for system desktop monitor
