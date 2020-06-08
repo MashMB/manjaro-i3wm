@@ -28,3 +28,4 @@ All configuration files can be found in **manjaro** directory. They are placed i
 2. **/etc/default/grub** - changed default laptop sleep mode (usage of deep sleep for suspend)
 3. **/etc/lightdm/lightdm.conf** - user name and password required to login into system (only password in original version)
 4. **/etc/systemd/system/blurlock.service** - automatic blur lock when suspending laptop (this file was created)
+5. **/etc/systemd/logind.conf** - changed default laptop **lid close** behavior
