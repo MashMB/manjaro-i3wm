@@ -25,3 +25,5 @@ All configuration files can be found in **manjaro** directory. They are placed i
 ## Short list of files used in configuration
 
 1. **/home/[username]/.i3/config** - i3wm configuration (with 20 workspaces, centered floating windows)
+2. **/etc/default/grub** - changed default laptop sleep mode (usage of deep sleep for suspend)
+3. 
