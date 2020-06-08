@@ -29,3 +29,4 @@ All configuration files can be found in **manjaro** directory. They are placed i
 3. **/etc/lightdm/lightdm.conf** - user name and password required to login into system (only password in original version)
 4. **/etc/systemd/system/blurlock.service** - automatic blur lock when suspending laptop (this file was created)
 5. **/etc/systemd/logind.conf** - changed default laptop **lid close** behavior
+6. **/etc/X11/xorg.conf.d/20-intel.conf** - additional configuration for Intel GPU to resolve problems with freezing Electron applications (this file was created)
