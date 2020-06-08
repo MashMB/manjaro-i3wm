@@ -36,3 +36,6 @@ All configuration files can be found in **manjaro** directory. They are placed i
 10. **/home/[user_name]/.config/picom.conf** - unfocused container is a little bit transparent, transition animations, Intel GPU fix for execution
 11. **/home/[user_name]/.local/share/fonts/...** - fonts for proper work of **powerlevel10k** ZSH theme
 12. **/home/[user_name]/.Xresources** - bigger font for **urxvt** terminal and **powerlevel10k** ZSH theme handling
+13. **/home/[user_name]/.bashrc** - run **neofetch** on terminal start-up
+14. **/home/[user_name]/.zshrc** - **powerlevel10k** ZSH theme with autocomplete and output coloring configuration
+
