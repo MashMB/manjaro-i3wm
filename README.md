@@ -21,3 +21,7 @@ All configuration files can be found in **manjaro** directory. They are placed i
 1. File with **org** in name - copy of original file provided by Manjaro.
 2. File with **mod** in name - file that was edited by me.
 3. Original file name - it means that file was created or deleted by me.
+
+## Short list of files used in configuration
+
+1. **/home/[username]/.i3/config** - i3wm configuration (with 20 workspaces, centered floating windows)
