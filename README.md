@@ -32,3 +32,5 @@ All configuration files can be found in **manjaro** directory. They are placed i
 6. **/etc/X11/xorg.conf.d/20-intel.conf** - additional configuration for Intel GPU to resolve problems with freezing Electron applications (this file was created)
 7. **/etc/X11/xorg.conf.d/30-touchpad.conf** - enabling natural scroll for laptop touchpad in Manjaro (by default it is reversed)
 8. **/etc/i3status.conf** - rising i3bar with custom Font Awesome icons
+9. **/home/[user_name]/.config/compton.conf** - file deleted to use **picom** instead
+10. **/home/[user_name]/.config/picom.conf** - unfocused container is a little bit transparent, transition animations, Intel GPU fix for execution
