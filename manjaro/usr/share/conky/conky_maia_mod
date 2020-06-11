@@ -1,4 +1,5 @@
 conky.config = {
+	xinerama_head = 0,
 	alignment = 'top_right',
 	background = true,
 	color2 = '5D7B86',
