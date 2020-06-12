@@ -23,6 +23,10 @@ ${color2}open new terminal - ${color}mod+Enter
 ${color2}kill focused - ${color}mod+Shift+q
 ${color2}open browser - ${color}mod+F2
 ${color2}open file manager - ${color}mod+F3
+${color2}open station - ${color}mod+F4
+${color2}open mailbox - ${color}mod+F5
+${color2}open spotify - ${color}mod+F6
+${color2}open jetbrains - ${color}mod+F7
 ${color2}open alsamixer - ${color}mod+Ctrl+m
 ${color2}toggle split direction - ${color}mod+h/v/q
 ${color2}toggle container layout - ${color}mod+s/w/e
