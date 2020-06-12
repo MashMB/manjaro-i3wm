@@ -61,6 +61,10 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+F2 exec brave
 bindsym $mod+F3 exec nautilus
+bindsym $mod+F4 exec station
+bindsym $mod+F5 exec mailspring
+bindsym $mod+F6 exec spotify
+bindsym $mod+F7 exec jetbrains-toolbox
 # bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 # bindsym $mod+Shift+F3 exec pcmanfm_pkexec
@@ -145,26 +149,26 @@ bindsym $mod+Ctrl+Left workspace prev
 # to display names or symbols instead of plain workspace numbers you can use
 # something like: set $ws1 1:mail
 #                 set $ws2 2:
-set $ws1 1
-set $ws2 2
-set $ws3 3
-set $ws4 4
-set $ws5 5
-set $ws6 6
-set $ws7 7
-set $ws8 8
-set $ws9 9
-set $ws10 10
-set $ws11 11
-set $ws12 12
-set $ws13 13
-set $ws14 14
-set $ws15 15
-set $ws16 16
-set $ws17 17
-set $ws18 18
-set $ws19 19
-set $ws20 20
+set $ws1 "1:"
+set $ws2 "2:"
+set $ws3 "3:"
+set $ws4 "4:"
+set $ws5 "5:"
+set $ws6 "6:"
+set $ws7 "7:"
+set $ws8 "8:"
+set $ws9 "9:"
+set $ws10 "10:"
+set $ws11 "11:"
+set $ws12 "12:"
+set $ws13 "13:"
+set $ws14 "14:"
+set $ws15 "15:"
+set $ws16 "16:"
+set $ws17 "17:"
+set $ws18 "18:"
+set $ws19 "19:"
+set $ws20 "20:"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -237,6 +241,12 @@ bindsym $mod+Shift+Mod1+0 move container to workspace $ws20; workspace $ws20
 # assign [class="Pale moon"] $ws2
 # assign [class="Pcmanfm"] $ws3
 # assign [class="Skype"] $ws5
+assign [class="Brave-browser"] $ws1
+assign [class="Org.gnome.Nautilus"] $ws2
+assign [class="Mailspring"] $ws8
+assign [class="Spotify"] $ws9
+assign [class="Station"] $ws10
+assign [class="JetBrains Toolbox"] $ws11
 
 # Open specific applications in floating mode
 # for_window [title="alsamixer"] floating enable border pixel 2
@@ -376,7 +386,7 @@ set_from_resource $term_color15    color15
 # Start i3bar to display a workspace bar (plus the system information i3status if available)
 bar {
 	i3bar_command i3bar
-	status_command i3status
+	status_command py3status
 	position top
 
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
@@ -386,7 +396,7 @@ bar {
 	bindsym button4 nop
 	bindsym button5 nop
 #   font xft:URWGothic-Book 11
-	strip_workspace_numbers yes
+	strip_workspace_numbers no
 
     colors {
         background #222D31
