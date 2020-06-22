@@ -27,6 +27,7 @@ ${color2}open station - ${color}mod+F4
 ${color2}open mailbox - ${color}mod+F5
 ${color2}open spotify - ${color}mod+F6
 ${color2}open jetbrains - ${color}mod+F7
+${color2}open rss reader - ${color}mod+F8
 ${color2}open alsamixer - ${color}mod+Ctrl+m
 ${color2}toggle split direction - ${color}mod+h/v/q
 ${color2}toggle container layout - ${color}mod+s/w/e

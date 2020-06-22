@@ -65,6 +65,7 @@ bindsym $mod+F4 exec station
 bindsym $mod+F5 exec mailspring
 bindsym $mod+F6 exec spotify
 bindsym $mod+F7 exec jetbrains-toolbox
+bindsym $mod+F8 exec terminal -e 'newsboat'
 # bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 # bindsym $mod+F5 exec terminal -e 'mocp'
@@ -154,7 +155,7 @@ set $ws3 "3:"
 set $ws4 "4:"
 set $ws5 "5:"
 set $ws6 "6:"
-set $ws7 "7:"
+set $ws7 "7:"
 set $ws8 "8:"
 set $ws9 "9:"
 set $ws10 "10:"
@@ -242,6 +243,7 @@ bindsym $mod+Shift+Mod1+0 move container to workspace $ws20; workspace $ws20
 # assign [class="Skype"] $ws5
 assign [class="Brave-browser"] $ws1
 assign [title="ranger"] $ws2
+assign [title="newsboat"] $ws7
 assign [class="Mailspring"] $ws8
 assign [class="Spotify"] $ws9
 assign [class="Station"] $ws10
