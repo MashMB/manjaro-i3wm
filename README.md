@@ -41,3 +41,5 @@ All configuration files can be found in **manjaro** directory. They are placed i
 15. **/usr/share/conky/conky1.10_shortcuts_maia** - font settings and description for more shortcuts
 16. **/usr/share/conky/conky_maia** - font settings for system desktop monitor
 17. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
+18. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (better theme for Manjaro i3 Community Edition, this file was created)
+19. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
