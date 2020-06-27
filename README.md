@@ -24,22 +24,23 @@ All configuration files can be found in **manjaro** directory. They are placed i
 
 ## Short list of files used in configuration
 
-1. **/home/[user_name]/.i3/config** - i3wm configuration (with 20 workspaces, centered floating windows)
+1. **/home/[user_name]/.i3/config** - i3wm configuration (themed, with 20 workspaces, centered floating windows)
 2. **/etc/default/grub** - changed default laptop sleep mode (usage of deep sleep for suspend)
 3. **/etc/lightdm/lightdm.conf** - user name and password required to login into system (only password in original version)
 4. **/etc/systemd/system/blurlock.service** - automatic blur lock when suspending laptop (this file was created)
 5. **/etc/systemd/logind.conf** - changed default laptop **lid close** behavior
 6. **/etc/X11/xorg.conf.d/20-intel.conf** - additional configuration for Intel GPU to resolve problems with freezing Electron applications (this file was created)
 7. **/etc/X11/xorg.conf.d/30-touchpad.conf** - enabling natural scroll for laptop touchpad in Manjaro (by default it is reversed)
-8. **/etc/i3status.conf** - rising i3bar with custom Font Awesome icons
+8. **/etc/i3status.conf** - rising i3bar with theming and custom Font Awesome icons
 9. **/home/[user_name]/.config/compton.conf** - file deleted to use **picom** instead
 10. **/home/[user_name]/.config/picom.conf** - unfocused container is a little bit transparent, transition animations, Intel GPU fix for execution
 11. **/home/[user_name]/.local/share/fonts/...** - fonts for proper work of **powerlevel10k** ZSH theme
-12. **/home/[user_name]/.Xresources** - bigger font for **urxvt** terminal and **powerlevel10k** ZSH theme handling
+12. **/home/[user_name]/.Xresources** - theming with bigger font for **urxvt** terminal and **powerlevel10k** ZSH theme handling
 13. **/home/[user_name]/.bashrc** - run **neofetch** on terminal start-up and **micro** as default text editor
 14. **/home/[user_name]/.zshrc** - **powerlevel10k** ZSH theme with autocomplete and output coloring configuration (**micro** as default text editor)
-15. **/usr/share/conky/conky1.10_shortcuts_maia** - font settings and description for more shortcuts
-16. **/usr/share/conky/conky_maia** - font settings for system desktop monitor
+15. **/usr/share/conky/conky1.10_shortcuts_maia** - theme and font settings and description for more shortcuts
+16. **/usr/share/conky/conky_maia** - theme and font settings for system desktop monitor
 17. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
-18. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (better theme for Manjaro i3 Community Edition, this file was created)
+18. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
 19. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
+20. **/usr/share/rofi/themes/sidebar_themed.rasi** - themed to match system colors rofi sidebar theme (this file was created)
