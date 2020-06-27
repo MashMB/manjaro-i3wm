@@ -14,45 +14,45 @@ XTerm*faceSize:          11
 XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 
-*background:                      #222D31
-*foreground:                      #d8d8d8
+*background:                      #1d1f21
+*foreground:                      #707880
 *fading:                          8
 *fadeColor:                       black
-*cursorColor:                     #1ABB9B
+*cursorColor:                     #707880
 *pointerColorBackground:          #2B2C2B
 *pointerColorForeground:          #16A085
 
 !! black dark/light
-*color0:                          #222D31
-*color8:                          #585858
+*color0:                          #282a2e
+*color8:                          #373b41
 
 !! red dark/light
-*color1:                          #ab4642
-*color9:                          #ab4642
+*color1:                          #a54242
+*color9:                          #cc6666
 
 !! green dark/light
-*color2:                          #7E807E
-*color10:                         #8D8F8D
+*color2:                          #8c9440
+*color10:                         #707880
 
 !! yellow dark/light
-*color3:                          #f7ca88
-*color11:                         #f7ca88
+*color3:                          #de935f
+*color11:                         #f0c674
 
 !! blue dark/light
-*color4:                          #7cafc2
-*color12:                         #7cafc2
+*color4:                          #5f819d
+*color12:                         #5f819d
 
 !! magenta dark/light
-*color5:                          #ba8baf
-*color13:                         #ba8baf
+*color5:                          #85678f
+*color13:                         #b294bb
 
 !! cyan dark/light
-*color6:                          #1ABB9B
-*color14:                         #1ABB9B
+*color6:                          #5e8d87
+*color14:                         #8abeb7
 
 !! white dark/light
-*color7:                          #d8d8d8
-*color15:                         #f8f8f8
+*color7:                          #707880
+*color15:                         #c5c8c6
 
 Xcursor.theme: xcursor-breeze
 Xcursor.size:                     0
@@ -65,12 +65,12 @@ URxvt.font:                       xft:MesloLGS NF:size=12
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 [100]#222D31
+! URxvt.background:                 [100]#1d1f21
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
-URxvt*background:                 black
-URxvt*foreground:                 grey
+! URxvt*background:                 #1d1f21
+! URxvt*foreground:                 #707880
 URxvt*saveLines:                  5000
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
