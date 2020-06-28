@@ -24,7 +24,7 @@ All configuration files can be found in **manjaro** directory. They are placed i
 
 ## Short list of files used in configuration
 
-1. **/home/[user_name]/.i3/config** - i3wm configuration (themed, with 20 workspaces, centered floating windows)
+1. **/home/[user_name]/.i3/config** - i3wm configuration (themed, with 20 workspaces, centered floating windows, terminal in scratchpad)
 2. **/etc/default/grub** - changed default laptop sleep mode (usage of deep sleep for suspend)
 3. **/etc/lightdm/lightdm.conf** - user name and password required to login into system (only password in original version)
 4. **/etc/systemd/system/blurlock.service** - automatic blur lock when suspending laptop (this file was created)
@@ -43,4 +43,3 @@ All configuration files can be found in **manjaro** directory. They are placed i
 17. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
 18. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
 19. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
-20. **/usr/share/rofi/themes/sidebar_themed.rasi** - themed to match system colors rofi sidebar theme (this file was created)
