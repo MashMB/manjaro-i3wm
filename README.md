@@ -43,3 +43,5 @@ All configuration files can be found in **manjaro** directory. They are placed i
 17. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
 18. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
 19. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
+20. **/home/[user_name]/.screenlayout/only_laptop.sh** - laptop monitor configuration for **randr** (this file was created)
+21. **/home/[user_name]/.screenlayout/external_vertical.sh** - single external vertical monitor configuration to use with laptop for **randr** (this file was created)
