@@ -18,36 +18,37 @@ conky.config = {
 	update_interval = 2.0,
 	use_xft = true,
 }
-conky.text = [[
-${color2}open new terminal - ${color}mod+Enter
-${color2}kill focused - ${color}mod+Shift+q
-${color2}open browser - ${color}mod+F2
-${color2}open file manager - ${color}mod+F3
-${color2}open station - ${color}mod+F4
-${color2}open mailbox - ${color}mod+F5
-${color2}open spotify - ${color}mod+F6
-${color2}open jetbrains - ${color}mod+F7
-${color2}open rss reader - ${color}mod+F8
-${color2}open alsamixer - ${color}mod+Ctrl+m
-${color2}toggle split direction - ${color}mod+h/v/q
-${color2}toggle container layout - ${color}mod+s/w/e
-${color2}toggle sticky - ${color}mod+Shift+s
-${color2}rofi - ${color}mod+d
-${color2}bmenu - ${color}mod+Ctrl+b
-${color2}morc menu - ${color}mod+z
-${color2}scratchpad - ${color}mod+u
-${color2}switch to workspace 1-10 - ${color}mod+1-0
-${color2}switch to workspace 11-20 - ${color}mod+Alt+1-0
-${color2}send to workspace 1-10 - ${color}mod+Ctrl+1-0
-${color2}send to workspace 11-20 - ${color}mod+Ctrl+Alt+1-0
-${color2}navigate workspaces - ${color}mod+Ctrl+arrows
-${color2}toggle floating - ${color}mod+Shift+Space
-${color2}center resized - ${color}mod+c
-${color2}change window appearance - ${color}mod+y/n
-${color2}window changer - ${color}mod+Tab
-${color2}lock - ${color}mod+Escape
-${color2}exit - ${color}mod+Shift+p
 
-${color2}help - ${color}mod+Shift+h
+conky.text = [[
+${color2}Switch to workspace 1-10 - ${color}mod+1-0
+${color2}Switch to workspace 11-20 - ${color}mod+Alt+1-0
+${color2}Send to workspace 1-10 - ${color}mod+Ctrl+1-0
+${color2}Send to workspace 11-20 - ${color}mod+Ctrl+Alt+1-0
+${color2}Navigate workspaces - ${color}mod+Ctrl+arrows
+${color2}Kill focused - ${color}mod+Shift+q
+${color2}Split direction - ${color}mod+h/v/q
+${color2}Container layout - ${color}mod+s/w/e
+${color2}Sticky mode - ${color}mod+Shift+s
+${color2}Floating mode - ${color}mod+Shift+Space
+${color2}Center container - ${color}mod+c
+${color2}Change window appearance - ${color}mod+y/n
+${color2}Scratchpad - ${color}mod+u
+${color2}Open terminal - ${color}mod+Enter
+${color2}Rofi - ${color}mod+d
+${color2}Bmenu - ${color}mod+Ctrl+b
+${color2}Morc menu - ${color}mod+z
+${color2}Open browser - ${color}mod+F2
+${color2}Open file manager - ${color}mod+F3
+${color2}Open messaging - ${color}mod+F4
+${color2}Open mail - ${color}mod+F5
+${color2}Open music player - ${color}mod+F6
+${color2}Open toolbox - ${color}mod+F7
+${color2}Open RSS reader - ${color}mod+F8
+${color2}Open alsamixer - ${color}mod+Ctrl+m
+${color2}App switcher - ${color}mod+Tab
+${color2}Lock - ${color}mod+Escape
+${color2}Exit - ${color}mod+Shift+p
+
+${color2}Help - ${color}mod+Shift+h
 mod = <Super>
 ]]
