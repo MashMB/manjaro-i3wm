@@ -146,6 +146,7 @@ assign [title="newsboat"] $ws7
 assign [class="Mailspring"] $ws8
 assign [class="Spotify"] $ws9
 assign [class="Station"] $ws10
+assign [class="Microsoft Teams - Preview"] $ws10
 assign [class="JetBrains Toolbox"] $ws11
 
 # Behaviour rule for specific app
