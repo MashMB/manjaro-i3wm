@@ -252,8 +252,8 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # Change container layout
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+s layout stacking;exec notify-send 'Stacking mode'
+bindsym $mod+w layout tabbed;exec notify-send 'Tabbing mode'
 bindsym $mod+e layout toggle split
 
 # Change tilling direction
@@ -271,7 +271,7 @@ bindsym $mod+c resize set 900 600; move position center
 bindsym $mod+space focus mode_toggle
 
 # Toggle sticky container
-bindsym $mod+Shift+s sticky toggle
+bindsym $mod+Shift+s sticky toggle;exec notify-send 'Sticky container mode'
 
 # Focus parent container
 bindsym $mod+a focus parent
@@ -283,13 +283,13 @@ bindsym $mod+Escape exec --no-startup-id blurlock
 bindsym $mod+u scratchpad show
 
 # Create full desktop screen shot
-bindsym Print exec --no-startup-id i3-scrot
+bindsym Print exec --no-startup-id i3-scrot;exec notify-send 'Full screen shot'
 
 # Create screen shot of focused container
-bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
+bindsym $mod+Print --release exec --no-startup-id i3-scrot -w;exec notify-send 'Container screen shot'
 
 # Create screen shot of selection
-bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s;exec notify-send 'Selection screen shot'
 
 # Open Manjaro keybindings help
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
@@ -305,6 +305,9 @@ bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 
 # Start app launcher
 bindsym $mod+d exec --no-startup-id rofi -show drun
+
+# Start bash scripts launcher
+bindsym $mod+Shift+d exec --no-startup-id /home/mash/.sh/launcher/launcher.sh
 
 # Start app switcher
 bindsym $mod+Tab exec --no-startup-id  rofi -show window

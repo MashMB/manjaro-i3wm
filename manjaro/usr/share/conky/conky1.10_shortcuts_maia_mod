@@ -35,6 +35,7 @@ ${color2}Change window appearance - ${color}mod+y/n
 ${color2}Scratchpad - ${color}mod+u
 ${color2}Open terminal - ${color}mod+Enter
 ${color2}Rofi - ${color}mod+d
+${color2}Scripts - ${color}mod+Shift+d
 ${color2}Bmenu - ${color}mod+Ctrl+b
 ${color2}Morc menu - ${color}mod+z
 ${color2}Open browser - ${color}mod+F2
