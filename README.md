@@ -43,11 +43,10 @@ All configuration files can be found in **manjaro** directory. They are placed i
 17. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
 18. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
 19. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
-20. **/home/[user_name]/.screenlayout/only_laptop.sh** - laptop monitor configuration for **randr** (this file was created)
-21. **/home/[user_name]/.screenlayout/external_vertical.sh** - single external vertical monitor configuration to use with laptop for **randr** (this file was created)
 
 ## Automatization with bash scripts
 
 In directory **/home/.sh/** bash scripts to automate work on Linux can be found. Every single **.sh** script placed in this location can be run with usage of **rofi**. i3wm configuration file has keybinding to run scripts launcher from location **/home/.sh/launcher/launcher.sh** under **mod+Shift+d**. List of available scripts in this repository:
 
 1. **remote_location.sh** - automate FTP/SFTP mounting/unmounting in Linux file system
+2. **screen_layout.sh** - setting one of defined displays configuration
