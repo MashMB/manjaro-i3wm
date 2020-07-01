@@ -58,7 +58,7 @@ then
 		then
 			COMMAND="sudo sshfs $USERNAME@$HOST:$REMOTE_DIR $MOUNT_POINT$SELECTED_CONFIG -o allow_other -p $PORT -C"
 		else
-			return 0
+			exit 0
 		fi
 
 		echo "$COMMAND" | xclip -sel clip
