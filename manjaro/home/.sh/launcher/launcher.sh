@@ -2,7 +2,7 @@
 #
 # Bash scripts launcher with usage of rofi.
 #
-# @requirements: ls, rofi
+# @requirements: cd, echo, exec, ls, rofi
 #
 # @author Maciej Bedra
 
