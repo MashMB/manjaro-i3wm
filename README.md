@@ -48,5 +48,6 @@ All configuration files can be found in **manjaro** directory. They are placed i
 
 In directory **/home/.sh/** bash scripts to automate work on Linux can be found. Every single **.sh** script placed in this location can be run with usage of **rofi**. i3wm configuration file has keybinding to run scripts launcher from location **/home/.sh/launcher/launcher.sh** under **mod+Shift+d**. List of available scripts in this repository:
 
-1. **remote_location.sh** - automate FTP/SFTP mounting/unmounting in Linux file system
-2. **screen_layout.sh** - setting one of defined displays configuration
+1. **external_filesystem** - automate external filesystems mounting/unmounting
+2. **remote_location.sh** - automate FTP/SFTP mounting/unmounting in Linux file system
+3. **screen_layout.sh** - setting one of defined displays configuration
