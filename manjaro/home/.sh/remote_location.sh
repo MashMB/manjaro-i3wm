@@ -72,5 +72,6 @@ then
 	then
 		gksu fusermount3 -u "$MOUNT_POINT$SELECTED_MOUNT"
 		gksu rm -rf "$MOUNT_POINT$SELECTED_MOUNT"
+		notify-send "Unmounted: $SELECTED_MOUNT"
 	fi
 fi

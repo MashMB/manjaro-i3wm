@@ -2,7 +2,7 @@
 #
 # Bash scripts launcher with usage of rofi.
 #
-# @requirements: cd, echo, exec, ls, rofi
+# @requirements: cd, echo, exec, ls, notify-send, rofi
 #
 # @author Maciej Bedra
 
@@ -17,5 +17,6 @@ fi
 
 if [[ ! -z "$SELECTED_SCRIPT" ]]
 then
+	notify-send "Executing $SELECTED_SCRIPT"
 	exec "$SCRIPTS_PATH/$SELECTED_SCRIPT"
 fi
