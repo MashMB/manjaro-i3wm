@@ -150,7 +150,7 @@ assign [class="Microsoft Teams - Preview"] $ws10
 assign [class="JetBrains Toolbox"] $ws11
 
 # Behaviour rule for specific app
-for_window [floating] resize set 900 600; move position center
+for_window [floating] resize set 1200 800; move absolute position center
 for_window [class="Microsoft Teams - Preview"] floating enable
 
 #################################
@@ -262,10 +262,10 @@ bindsym $mod+v split v;exec notify-send 'Tile vertically'
 bindsym $mod+q split toggle
 
 # Toggle container floating/tilling
-bindsym $mod+Shift+space floating toggle; resize set 900 600; move position center
+bindsym $mod+Shift+space floating toggle; resize set 1200 800; move absolute position center
 
 # Center and resize floating container
-bindsym $mod+c resize set 900 600; move position center
+bindsym $mod+c resize set 1200 800; move absolute position center
 
 # Change focus between floating/tilling container
 bindsym $mod+space focus mode_toggle
