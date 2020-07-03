@@ -26,23 +26,24 @@ All configuration files can be found in **manjaro** directory. They are placed i
 
 1. **/home/[user_name]/.i3/config** - i3wm configuration (themed, with 20 workspaces, centered floating windows, terminal in scratchpad)
 2. **/etc/default/grub** - changed default laptop sleep mode (usage of deep sleep for suspend)
-3. **/etc/lightdm/lightdm.conf** - user name and password required to login into system (only password in original version)
-4. **/etc/systemd/system/blurlock.service** - automatic blur lock when suspending laptop (this file was created)
-5. **/etc/systemd/logind.conf** - changed default laptop **lid close** behavior
-6. **/etc/X11/xorg.conf.d/20-intel.conf** - additional configuration for Intel GPU to resolve problems with freezing Electron applications (this file was created)
-7. **/etc/X11/xorg.conf.d/30-touchpad.conf** - enabling natural scroll for laptop touchpad in Manjaro (by default it is reversed)
-8. **/etc/i3status.conf** - rising i3bar with theming and custom Font Awesome icons
-9. **/home/[user_name]/.config/compton.conf** - file deleted to use **picom** instead
-10. **/home/[user_name]/.config/picom.conf** - unfocused container is a little bit transparent, transition animations, Intel GPU fix for execution
-11. **/home/[user_name]/.local/share/fonts/...** - fonts for proper work of **powerlevel10k** ZSH theme
-12. **/home/[user_name]/.Xresources** - theming with bigger font for **urxvt** terminal and **powerlevel10k** ZSH theme handling
-13. **/home/[user_name]/.bashrc** - run **neofetch** on terminal start-up and **micro** as default text editor
-14. **/home/[user_name]/.zshrc** - **powerlevel10k** ZSH theme with autocomplete and output coloring configuration (**micro** as default text editor)
-15. **/usr/share/conky/conky1.10_shortcuts_maia** - theme and font settings and description for more shortcuts
-16. **/usr/share/conky/conky_maia** - theme and font settings for system desktop monitor
-17. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
-18. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
-19. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
+3. **/etc/lightdm/lightdm.conf** - user name and password required to login into system (only password in original version), modified to use **lightdm-webkit2-greeter**
+4. **/etc/lightdm/lightdm-webkit2-greeter.conf** - use **litarvan** as login screen theme (this file was created)
+5. **/etc/systemd/system/blurlock.service** - automatic blur lock when suspending laptop (this file was created)
+6. **/etc/systemd/logind.conf** - changed default laptop **lid close** behavior
+7. **/etc/X11/xorg.conf.d/20-intel.conf** - additional configuration for Intel GPU to resolve problems with freezing Electron applications (this file was created)
+8. **/etc/X11/xorg.conf.d/30-touchpad.conf** - enabling natural scroll for laptop touchpad in Manjaro (by default it is reversed)
+9. **/etc/i3status.conf** - rising i3bar with theming and custom Font Awesome icons
+10. **/home/[user_name]/.config/compton.conf** - file deleted to use **picom** instead
+11. **/home/[user_name]/.config/picom.conf** - unfocused container is a little bit transparent, transition animations, Intel GPU fix for execution
+12. **/home/[user_name]/.local/share/fonts/...** - fonts for proper work of **powerlevel10k** ZSH theme
+13. **/home/[user_name]/.Xresources** - theming with bigger font for **urxvt** terminal and **powerlevel10k** ZSH theme handling
+14. **/home/[user_name]/.bashrc** - run **neofetch** on terminal start-up and **micro** as default text editor
+15. **/home/[user_name]/.zshrc** - **powerlevel10k** ZSH theme with autocomplete and output coloring configuration (**micro** as default text editor)
+16. **/usr/share/conky/conky1.10_shortcuts_maia** - theme and font settings and description for more shortcuts
+17. **/usr/share/conky/conky_maia** - theme and font settings for system desktop monitor
+18. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
+19. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
+20. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
 
 ## Automatization with bash scripts
 
