@@ -44,6 +44,8 @@ All configuration files can be found in **manjaro** directory. They are placed i
 18. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
 19. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
 20. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
+21. **/home/.config/gtk-3.0/settings.ini** - GTK 3 configured with Arc Dark theme and San Francisco font (this file was created)
+22. **/home/.gtkrc-2.0** - GTK 2 configured with Arc Dark theme and San Francisco font (this file was created)
 
 ## Automatization with bash scripts
 
