@@ -17,7 +17,7 @@ default_floating_border pixel 2
 hide_edge_borders none
 
 # Set font for window title
-font xft:URWGothic-Book 11
+font xft:SFNS Display 11
 
 # Set window focus
 focus_follows_mouse no
@@ -198,7 +198,7 @@ for_window [instance="scratchpad"] floating enable; move scratchpad
 ###########################
 
 bar {
-	i3bar_command i3bar
+	i3bar_command i3bar -t
 	status_command py3status
 	position top
 	tray_output primary
@@ -207,16 +207,16 @@ bar {
 	strip_workspace_numbers no
 
     colors {
-        background #1d1f21
-        statusline #707880
-        separator  #707880
+        background #2F343F
+        statusline #F9FAF9
+        separator  #454947
 
 #                          border  backgr. text
-        focused_workspace  #707880 #707880 #1d1f21
-        active_workspace   #1d1f21 #1d1f21 #707880
-        inactive_workspace #1d1f21 #1d1f21 #707880
-        binding_mode       #8c9440 #707880 #1d1f21
-        urgent_workspace   #8c9440 #707880 #1d1f21
+        focused_workspace  #F9FAF9 #F9FAF9 #2F343F
+        active_workspace   #2F343F #2F343F #F9FAF9
+        inactive_workspace #2F343F #2F343F #F9FAF9
+        binding_mode       #F9FAF9 #F9FAF9 #2F343F
+        urgent_workspace   #F9FAF9 #F9FAF9 #2F343F
     }
 }
 
@@ -304,13 +304,13 @@ bindsym $mod+z exec --no-startup-id morc_menu
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 
 # Start app launcher
-bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+d exec --no-startup-id rofi -lines 5 -show drun
 
 # Start bash scripts launcher
 bindsym $mod+Shift+d exec --no-startup-id /home/mash/.sh/launcher/launcher.sh
 
 # Start app switcher
-bindsym $mod+Tab exec --no-startup-id  rofi -show window
+bindsym $mod+Tab exec --no-startup-id  rofi -lines 5 -show window
 
 # Start sound mixer
 bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
@@ -361,13 +361,13 @@ set_from_resource $term_color14    color14
 set_from_resource $term_color15    color15
 
 # Workspace
-# Class					border	backgr. text	indic.  child_border
-client.focused          #707880 #1d1f21 #707880 #8c9440 #8c9440
-client.focused_inactive #707880 #1d1f21 #707880 #5f819d #5f819d
-client.unfocused        #707880 #1d1f21 #707880 #5f819d #5f819d
-client.urgent           #707880 #1d1f21 #707880 #5f819d #5f819d
-client.placeholder      #707880 #1d1f21 #707880 #5f819d #5f819d 
-client.background       #1d1f21
+# Class					border	backgr. text	indic. 	child_border
+client.focused          #404552 #404552 #9BA2B3 #5294E2	#5294E2
+client.focused_inactive #2F343F #2F343F #595F6D #454948
+client.unfocused        #2F343F #2F343F #595F6D #454948
+client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+client.placeholder      #000000 #0C0C0C #FFFFFF #000000 
+client.background       #2B2C2B
 
 #############################
 #####     AUTOSTART     #####

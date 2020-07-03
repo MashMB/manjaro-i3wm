@@ -14,32 +14,32 @@ XTerm*faceSize:          11
 XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 
-*background:                      #1d1f21
-*foreground:                      #707880
+*background:                      #404552
+*foreground:                      #b3bdcb
 *fading:                          8
 *fadeColor:                       black
-*cursorColor:                     #707880
+*cursorColor:                     #b3bdcb
 *pointerColorBackground:          #2B2C2B
 *pointerColorForeground:          #16A085
 
-*color0:                          #282a2e
-*color1:                          #a54242
-*color2:                          #8c9440
-*color3:                          #de935f
-*color4:                          #5f819d
-*color5:                          #85678f
-*color6:                          #5e8d87
-*color7:                          #707880
-*color8:                          #373b41
-*color9:                          #cc6666
-*color10:                         #707880
-*color11:                         #f0c674
-*color12:                         #5f819d
-*color13:                         #b294bb
-*color14:                         #8abeb7
-*color15:                         #c5c8c6
+*color0:                          #404552
+*color1:                          #cc575d
+*color2:                          #2679db
+*color3:                          #b3bdcb
+*color4:                          #5294e2
+*color5:                          #404552
+*color6:                          #b3bdcb
+*color7:                          #E1E5EA
+*color8:                          #2a303b
+*color9:                          #a3464a
+*color10:                         #75a9e8
+*color11:                         #cad1db
+*color12:                         #97bfee
+*color13:                         #686d79
+*color14:                         #383c4a
+*color15:                         #ffffff
 
-Xcursor.theme: xcursor-breeze
+Xcursor.theme: xcursor-breeze-snow
 Xcursor.size:                     0
 
 URxvt.font:                       xft:MesloLGS NF:size=12
