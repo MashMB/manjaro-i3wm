@@ -8,7 +8,7 @@
 
 OEM="OEM"
 LV_OEM="LV < OEM"
-SELECTED_LAYOUT=$(echo -e "$OEM\n$LV_OEM" | rofi -dmenu)
+SELECTED_LAYOUT=$(echo -e "$OEM\n$LV_OEM" | rofi -lines 5 -dmenu)
 
 if [[ ! -z "$SELECTED_LAYOUT" ]]
 then

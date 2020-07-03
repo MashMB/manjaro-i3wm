@@ -14,7 +14,7 @@ MOUNT_OPTION="mount"
 UNMOUNT_OPTION="unmount"
 FTP_PROTOCOL="FTP"
 SFTP_PROTOCOL="SFTP"
-SELECTED_OPTION=$(echo -e "$MOUNT_OPTION\n$UNMOUNT_OPTION" | rofi -dmenu)
+SELECTED_OPTION=$(echo -e "$MOUNT_OPTION\n$UNMOUNT_OPTION" | rofi -lines 5 -dmenu)
 
 function select_configuration() {
 	cd $CONFIG_DIR
@@ -22,7 +22,7 @@ function select_configuration() {
 
 	if [[ ! -z "$CONFIGS" ]]
 	then
-		SELECTED_CONFIG=$(echo -e "$CONFIGS" | rofi -dmenu)
+		SELECTED_CONFIG=$(echo -e "$CONFIGS" | rofi -lines 5 -dmenu)
 	fi
 
 	echo "$SELECTED_CONFIG"
@@ -35,7 +35,7 @@ function select_mount_point() {
 
 	if [[ ! -z "MOUNTS" ]]
 	then
-		SELECTED_MOUNT=$(echo -e "$MOUNTS" | rofi -dmenu)
+		SELECTED_MOUNT=$(echo -e "$MOUNTS" | rofi -lines 5 -dmenu)
 	fi
 
 	echo "$SELECTED_MOUNT"

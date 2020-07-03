@@ -12,7 +12,7 @@ SCRIPTS=$(ls -A1 *.sh)
 
 if [[ ! -z "$SCRIPTS" ]]
 then
-	SELECTED_SCRIPT=$(echo -e "$SCRIPTS" | rofi -dmenu)
+	SELECTED_SCRIPT=$(echo -e "$SCRIPTS" | rofi -lines 5 -dmenu)
 fi
 
 if [[ ! -z "$SELECTED_SCRIPT" ]]

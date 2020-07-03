@@ -10,14 +10,14 @@ DEV_PATH="/dev/"
 MOUNT_POINT="/run/media/"
 MOUNT_OPTION="mount"
 UNMOUNT_OPTION="unmount"
-SELECTED_OPTION=$(echo -e "$MOUNT_OPTION\n$UNMOUNT_OPTION" | rofi -dmenu)
+SELECTED_OPTION=$(echo -e "$MOUNT_OPTION\n$UNMOUNT_OPTION" | rofi -lines 5 -dmenu)
 
 function select_filesystem() {
 	UNMOUNTED=$(lsblk --raw --noheadings -o NAME,SIZE,MOUNTPOINT | awk '$3 == ""')
 
 	if [[ ! -z "$UNMOUNTED" ]]
 	then
-		SELECTED_FILESYSTEM=$(echo -e "$UNMOUNTED" | rofi -dmenu)
+		SELECTED_FILESYSTEM=$(echo -e "$UNMOUNTED" | rofi -lines 5 -dmenu)
 	fi
 
 	echo "$SELECTED_FILESYSTEM" | awk '{print $1}'
@@ -29,7 +29,7 @@ function select_mount_point() {
 
 	if [[ ! -z "MOUNTS" ]]
 	then
-		SELECTED_MOUNT=$(echo -e "$MOUNTS" | rofi -dmenu)
+		SELECTED_MOUNT=$(echo -e "$MOUNTS" | rofi -lines 5 -dmenu)
 	fi
 
 	echo "$SELECTED_MOUNT"
