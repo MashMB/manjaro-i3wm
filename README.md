@@ -46,6 +46,7 @@ All configuration files can be found in **manjaro** directory. They are placed i
 20. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
 21. **/home/.config/gtk-3.0/settings.ini** - GTK 3 configured with Arc Dark theme and San Francisco font (this file was created)
 22. **/home/.gtkrc-2.0** - GTK 2 configured with Arc Dark theme and San Francisco font (this file was created)
+23. **/usr/share/rofi/themes/slate.rasi** - theme for rofi to match Arc Dark system theming (this file was created)
 
 ## Automatization with bash scripts
 
