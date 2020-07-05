@@ -13,6 +13,7 @@ In this repository you will find my personalized configuration for Manjaro Linux
 <p align="center">
     <img src="desktop.png" />
 </p>
+
 ## Arc Dark
 
 The whole system theming was inspired by **Arc Dark** theme. For overall experiance, **GTK Arc Dark** theme with it's icons should be installed.
