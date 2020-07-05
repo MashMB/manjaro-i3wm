@@ -13,6 +13,8 @@ SCRIPTS=$(ls -A1 *.sh)
 if [[ ! -z "$SCRIPTS" ]]
 then
 	SELECTED_SCRIPT=$(echo -e "$SCRIPTS" | rofi -lines 5 -dmenu)
+else
+	notify-send "No scripts to execute"
 fi
 
 if [[ ! -z "$SELECTED_SCRIPT" ]]
