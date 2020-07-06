@@ -13,14 +13,14 @@ UNMOUNT_OPTION="unmount"
 SELECTED_OPTION=$(echo -e "$MOUNT_OPTION\n$UNMOUNT_OPTION" | rofi -lines 5 -dmenu)
 
 function select_filesystem() {
-	UNMOUNTED=$(lsblk --raw --noheadings -o NAME,SIZE,MOUNTPOINT | awk '$3 == ""')
+	UNMOUNTED=$(lsblk --raw --noheadings -o TYPE,NAME,SIZE,MOUNTPOINT | awk '$4 == ""')
 
 	if [[ ! -z "$UNMOUNTED" ]]
 	then
 		SELECTED_FILESYSTEM=$(echo -e "$UNMOUNTED" | rofi -lines 5 -dmenu)
 	fi
 
-	echo "$SELECTED_FILESYSTEM" | awk '{print $1}'
+	echo "$SELECTED_FILESYSTEM" | awk '{print $2}'
 }
 
 function select_mount_point() {
