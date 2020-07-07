@@ -51,6 +51,8 @@ All configuration files can be found in **manjaro** directory. They are placed i
 21. **/home/.config/gtk-3.0/settings.ini** - GTK 3 configured with Arc Dark theme and San Francisco font (this file was created)
 22. **/home/.gtkrc-2.0** - GTK 2 configured with Arc Dark theme and San Francisco font (this file was created)
 23. **/usr/share/rofi/themes/slate.rasi** - theme for rofi to match Arc Dark system theming (this file was created)
+24. **/home/.config/dunst/dunstrc** - theming for dunst notifications to match Arc Dark system theme
+25. **/home/.config/micro/settings.json** - changed theme for micro terminal text editor (this file was created)
 
 ## Automatization with bash scripts
 
