@@ -254,7 +254,7 @@ bindsym $mod+Shift+Right move right
 # Change container layout
 bindsym $mod+s layout stacking;exec notify-send 'Stacking mode'
 bindsym $mod+w layout tabbed;exec notify-send 'Tabbing mode'
-bindsym $mod+e layout toggle split
+bindsym $mod+e layout toggle split;exec notify-send 'Splitting mode'
 
 # Change tilling direction
 bindsym $mod+h split h;exec notify-send 'Tile horizontally'
