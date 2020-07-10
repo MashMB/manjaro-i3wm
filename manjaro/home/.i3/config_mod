@@ -117,6 +117,14 @@ bindsym $mod+Shift+Mod1+0 move container to workspace $ws20; workspace $ws20
 # Navigate next/previous workspace
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
+bindsym $mod+Ctrl+semicolon workspace next
+bindsym $mod+Ctrl+j workspace prev
+
+# Move workspace to output
+bindsym $mod+Ctrl+Shift+Right move workspace to output right
+bindsym $mod+Ctrl+Shift+Left move workspace to output left
+bindsym $mod+Ctrl+Shift+semicolon move workspace to output right
+bindsym $mod+Ctrl+Shift+j move workspace to output left
 
 # Automatically go to last used workspace
 workspace_auto_back_and_forth no
