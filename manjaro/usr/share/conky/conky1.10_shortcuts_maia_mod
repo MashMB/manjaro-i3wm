@@ -24,6 +24,7 @@ ${color2}Switch to workspace 1-10 - ${color}mod+1-0
 ${color2}Switch to workspace 11-20 - ${color}mod+Alt+1-0
 ${color2}Send to workspace 1-10 - ${color}mod+Ctrl+1-0
 ${color2}Send to workspace 11-20 - ${color}mod+Ctrl+Alt+1-0
+${color2}Change workspace output - ${color}mod+Ctrl+Shift+arrows
 ${color2}Navigate workspaces - ${color}mod+Ctrl+arrows
 ${color2}Kill focused - ${color}mod+Shift+q
 ${color2}Split direction - ${color}mod+h/v/q
