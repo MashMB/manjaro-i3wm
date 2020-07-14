@@ -39,6 +39,8 @@ ${color2}Rofi - ${color}mod+d
 ${color2}Scripts - ${color}mod+Shift+d
 ${color2}Bmenu - ${color}mod+Ctrl+b
 ${color2}Morc menu - ${color}mod+z
+${color2}Notifications history - ${color}mod+Shift+n
+${color2}Dismiss notifications - ${color}mod+Shift+c
 ${color2}Open browser - ${color}mod+F2
 ${color2}Open file manager - ${color}mod+F3
 ${color2}Open messaging - ${color}mod+F4

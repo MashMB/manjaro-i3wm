@@ -154,7 +154,7 @@
     icon_path = /usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/
 
     # Limit icons size.
-    max_icon_size=128
+    max_icon_size=64
 
 [shortcuts]
 
@@ -164,19 +164,19 @@
     # Xev might be helpful to find names for keys.
     
     # Close notification.
-    close = mod1+space
+    close = mod4+ctrl+shift+c
     
     # Close all notifications.
     # close_all = ctrl+shift+space
-    close_all = ctrl+mod1+space
+    close_all = mod4+shift+c
 
     # Redisplay last message(s).
     # On the US keyboard layout "grave" is normally above TAB and left
     # of "1".
-    history = ctrl+mod4+h 
+    history = mod4+shift+n 
     
     # Context menu.
-    context = ctrl+mod1+c
+    # context = ctrl+mod1+c
 
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
