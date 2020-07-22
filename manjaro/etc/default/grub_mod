@@ -1,5 +1,5 @@
 GRUB_DEFAULT=saved
-GRUB_TIMEOUT=10
+GRUB_TIMEOUT=2
 GRUB_TIMEOUT_STYLE=hidden
 GRUB_DISTRIBUTOR="Manjaro"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet mem_sleep_default=deep apparmor=1 security=apparmor udev.log_priority=3"
