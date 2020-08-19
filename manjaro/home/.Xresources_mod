@@ -22,21 +22,21 @@ XTerm*selectToClipboard: true
 *pointerColorBackground:          #2B2C2B
 *pointerColorForeground:          #16A085
 
-*color0:                          #404552
+*color0:                          #1a2227
 *color1:                          #cc575d
-*color2:                          #2679db
-*color3:                          #b3bdcb
-*color4:                          #5294e2
-*color5:                          #404552
-*color6:                          #b3bdcb
-*color7:                          #E1E5EA
-*color8:                          #2a303b
-*color9:                          #a3464a
-*color10:                         #75a9e8
-*color11:                         #cad1db
-*color12:                         #97bfee
-*color13:                         #686d79
-*color14:                         #383c4a
+*color2:                          #51e158
+*color3:                          #dae151
+*color4:                          #1b559d
+*color5:                          #8c57cb
+*color6:                          #5294e2
+*color7:                          #d1d3d8
+*color8:                          #373d48
+*color9:                          #dd9296
+*color10:                         #91ed96
+*color11:                         #e9ed91
+*color12:                         #2879dc
+*color13:                         #b492dd
+*color14:                         #92bbed
 *color15:                         #ffffff
 
 Xcursor.theme: xcursor-breeze-snow
