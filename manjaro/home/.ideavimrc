@@ -1,0 +1,5 @@
+" IdeaVim plugin configuration (JetBrains).
+
+" Easier modes exit
+inoremap jk <Esc>
+inoremap kj <Esc>
