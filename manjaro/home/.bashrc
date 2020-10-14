@@ -138,7 +138,7 @@ ex ()
   fi
 }
 
-export EDITOR='/usr/bin/micro'
-export VISUAL='/usr/bin/micro'
+export EDITOR='/usr/bin/nvim'
+export VISUAL='/usr/bin/nvim'
 
 neofetch
