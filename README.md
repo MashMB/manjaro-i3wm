@@ -53,6 +53,9 @@ All configuration files can be found in **manjaro** directory. They are placed i
 23. **/usr/share/rofi/themes/slate.rasi** - theme for rofi to match Arc Dark system theming (this file was created)
 24. **/home/.config/dunst/dunstrc** - theming for dunst notifications to match Arc Dark system theme
 25. **/home/.config/micro/settings.json** - changed theme for micro terminal text editor (this file was created)
+26. **/home/.config/nvim/init.vim** - Neovim initialization file (this file was created)
+27. **/home/.config/nvim/general/settings.vim** - general Neovim settings (this file was created)
+28. **/home/.config/nvim/keys/mappings.vim** - custom keybinding for Neovim (this file was created)
 
 ## Automatization with bash scripts
 
