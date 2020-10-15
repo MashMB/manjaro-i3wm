@@ -1,6 +1,6 @@
 " General settings for Neovim.
 
-" set leader key
+" Set leader key
 let g:mapleader = "\<Space>"
 
 syntax enable                           " Enables syntax highlighing
