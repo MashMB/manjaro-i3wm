@@ -1,5 +1,28 @@
 " IdeaVim plugin configuration (JetBrains).
 
+" Set leader key
+let mapleader = " "
+
+" Handle system clipboard
+set clipboard+=unnamed
+
+" Usage of Idea join plugin (join lines smartly)
+set ideajoin
+
+" Enable multiple cursors support
+set multiple-cursors
+
+" Access to Idea Switcher functionality
+nmap <leader>e :action RecentFiles<cr>
+
 " Easier modes exit
 inoremap jk <Esc>
 inoremap kj <Esc>
+
+" Easy CAPS
+inoremap <c-u> <ESC>viwUi
+nnoremap <c-u> viwU<Esc>
+
+" Better tabbing
+vnoremap < <gv
+vnoremap > >gv
