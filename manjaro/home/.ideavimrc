@@ -1,7 +1,7 @@
 " IdeaVim plugin configuration (JetBrains).
 
 " Set leader key
-let mapleader = " "
+let mapleader = "g"
 
 " Handle system clipboard
 set clipboard+=unnamed
