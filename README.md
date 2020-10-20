@@ -34,7 +34,6 @@ All configuration files can be found in **manjaro** directory. They are placed i
 4. **/etc/lightdm/lightdm-webkit2-greeter.conf** - use **litarvan** as login screen theme (this file was created)
 5. **/etc/systemd/system/blurlock.service** - automatic blur lock when suspending laptop (this file was created)
 6. **/etc/systemd/logind.conf** - changed default laptop **lid close** behavior
-7. **/etc/X11/xorg.conf.d/20-intel.conf** - additional configuration for Intel GPU to resolve problems with freezing Electron applications (this file was created)
 8. **/etc/X11/xorg.conf.d/30-touchpad.conf** - enabling natural scroll for laptop touchpad in Manjaro (by default it is reversed)
 9. **/etc/i3status.conf** - rising i3bar with theming and custom Font Awesome icons
 10. **/home/[user_name]/.config/compton.conf** - file deleted to use **picom** instead
