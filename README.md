@@ -55,7 +55,9 @@ All configuration files can be found in **manjaro** directory. They are placed i
 26. **/home/.config/nvim/init.vim** - Neovim initialization file (this file was created)
 27. **/home/.config/nvim/general/settings.vim** - general Neovim settings (this file was created)
 28. **/home/.config/nvim/keys/mappings.vim** - custom keybinding for Neovim (this file was created)
-29. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
+29. **/home/.config/nvim/airline/airline.vim** - configuration for VIM Airline plugin (this file was created)
+30. **/home/.local/share/nvim/site/autoload/plug.vim** - Neovim plugin manager (this file was created)
+31. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
 
 ## Automatization with bash scripts
 
