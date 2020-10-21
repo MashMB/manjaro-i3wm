@@ -12,6 +12,12 @@ set ideajoin
 " Enable multiple cursors support
 set multiple-cursors
 
+" Line numbers
+set number relativenumber
+
+" Show active mode
+set showmode
+
 " Access to Idea Switcher functionality
 nmap <leader>e :action RecentFiles<cr>
 
