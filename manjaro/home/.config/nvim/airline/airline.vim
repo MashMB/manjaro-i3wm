@@ -1,4 +1,4 @@
-" Airline plugin configuration
+" Airline plugin configuration.
 
 " Airline theme
 let g:airline_theme = 'dark'
