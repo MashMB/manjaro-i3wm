@@ -1,5 +1,8 @@
 " Airline plugin configuration
 
+" Airline theme
+let g:airline_theme = 'dark'
+
 " Use powerline fonts (patched)
 let g:airline_powerline_fonts = 1
 

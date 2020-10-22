@@ -64,11 +64,10 @@ set autoindent
 set laststatus=0                        
 
 " Line numbers
-set number                              
+set number relativenumber                              
 
 " Enable highlighting of the current line
 "set cursorline                         
-
 
 " tell vim what the background color looks like
 set background=dark                     
@@ -77,7 +76,7 @@ set background=dark
 set showtabline=2                       
 
 " We don't need to see things like -- INSERT -- anymore
-"set noshowmode                         
+set noshowmode                         
 
 " This is recommended by coc
 set nobackup                            
