@@ -34,36 +34,35 @@ All configuration files can be found in **manjaro** directory. They are placed i
 4. **/etc/lightdm/lightdm-webkit2-greeter.conf** - use **litarvan** as login screen theme (this file was created)
 5. **/etc/systemd/system/blurlock.service** - automatic blur lock when suspending laptop (this file was created)
 6. **/etc/systemd/logind.conf** - changed default laptop **lid close** behavior
-8. **/etc/X11/xorg.conf.d/30-touchpad.conf** - enabling natural scroll for laptop touchpad in Manjaro (by default it is reversed)
-9. **/etc/i3status.conf** - rising i3bar with theming and custom Font Awesome icons
-10. **/home/[user_name]/.config/compton.conf** - file deleted to use **picom** instead
-11. **/home/[user_name]/.config/picom.conf** - unfocused container is a little bit transparent, transition animations, Intel GPU fix for execution
-12. **/home/[user_name]/.local/share/fonts/...** - fonts for proper work of **powerlevel10k** ZSH theme
-13. **/home/[user_name]/.Xresources** - theming with bigger font for **urxvt** terminal and **powerlevel10k** ZSH theme handling
-14. **/home/[user_name]/.bashrc** - run **neofetch** on terminal start-up and **micro** as default text editor
-15. **/home/[user_name]/.zshrc** - **powerlevel10k** ZSH theme with autocomplete and output coloring configuration (**micro** as default text editor)
-16. **/usr/share/conky/conky1.10_shortcuts_maia** - theme and font settings and description for more shortcuts
-17. **/usr/share/conky/conky_maia** - theme and font settings for system desktop monitor
-18. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
-19. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
-20. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
-21. **/home/.config/gtk-3.0/settings.ini** - GTK 3 configured with Arc Dark theme and San Francisco font (this file was created)
-22. **/home/.gtkrc-2.0** - GTK 2 configured with Arc Dark theme and San Francisco font (this file was created)
-23. **/usr/share/rofi/themes/slate.rasi** - theme for rofi to match Arc Dark system theming (this file was created)
-24. **/home/.config/dunst/dunstrc** - theming for dunst notifications to match Arc Dark system theme
-25. **/home/.config/micro/settings.json** - changed theme for micro terminal text editor (this file was created)
-26. **/home/.config/nvim/init.vim** - Neovim initialization file (this file was created)
-27. **/home/.config/nvim/general/settings.vim** - general Neovim settings (this file was created)
-28. **/home/.config/nvim/keys/mappings.vim** - custom keybinding for Neovim (this file was created)
-29. **/home/.config/nvim/airline/airline.vim** - configuration for VIM Airline plugin (this file was created)
-30. **/home/.local/share/nvim/site/autoload/plug.vim** - Neovim plugin manager (this file was created)
-31. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
+7. **/etc/X11/xorg.conf.d/30-touchpad.conf** - enabling natural scroll for laptop touchpad in Manjaro (by default it is reversed)
+8. **/etc/i3status.conf** - rising i3bar with theming and custom Font Awesome icons
+9. **/home/[user_name]/.config/compton.conf** - file deleted to use **picom** instead
+10. **/home/[user_name]/.config/picom.conf** - unfocused container is a little bit transparent, transition animations, Intel GPU fix for execution
+11. **/home/[user_name]/.local/share/fonts/...** - fonts for proper work of **powerlevel10k** ZSH theme
+12. **/home/[user_name]/.Xresources** - theming with bigger font for **urxvt** terminal and **powerlevel10k** ZSH theme handling
+13. **/home/[user_name]/.bashrc** - run **neofetch** on terminal start-up and **micro** as default text editor
+14. **/home/[user_name]/.zshrc** - **powerlevel10k** ZSH theme with autocomplete and output coloring configuration (**micro** as default text editor)
+15. **/usr/share/conky/conky1.10_shortcuts_maia** - theme and font settings and description for more shortcuts
+16. **/usr/share/conky/conky_maia** - theme and font settings for system desktop monitor
+17. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
+18. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
+19. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
+20. **/home/.config/gtk-3.0/settings.ini** - GTK 3 configured with Arc Dark theme and San Francisco font (this file was created)
+21. **/home/.gtkrc-2.0** - GTK 2 configured with Arc Dark theme and San Francisco font (this file was created)
+22. **/usr/share/rofi/themes/slate.rasi** - theme for rofi to match Arc Dark system theming (this file was created)
+23. **/home/.config/dunst/dunstrc** - theming for dunst notifications to match Arc Dark system theme
+24. **/home/.config/micro/settings.json** - changed theme for micro terminal text editor (this file was created)
+25. **/home/.config/nvim/init.vim** - Neovim initialization file (this file was created)
+26. **/home/.config/nvim/general/settings.vim** - general Neovim settings (this file was created)
+27. **/home/.config/nvim/keys/mappings.vim** - custom keybinding for Neovim (this file was created)
+28. **/home/.config/nvim/airline/airline.vim** - configuration for VIM Airline plugin (this file was created)
+29. **/home/.local/share/nvim/site/autoload/plug.vim** - Neovim plugin manager (this file was created)
+30. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
 
 ## Automatization with bash scripts
 
 In directory **/home/.sh/** bash scripts to automate work on Linux can be found. Every single **.sh** script placed in this location can be run with usage of **rofi**. i3wm configuration file has keybinding to run scripts launcher from location **/home/.sh/launcher/launcher.sh** under **mod+Shift+d**. List of available scripts in this repository:
 
 1. **dunst_notifications.sh** - enable/disable dunst notifications
-2. **external_filesystem** - automate external file systems mounting/unmounting
-3. **remote_location.sh** - automate FTP/SFTP mounting/unmounting in Linux file system
-4. **screen_layout.sh** - setting one of defined displays configuration
+2. **remote_location.sh** - automate FTP/SFTP mounting/unmounting in Linux file system
+3. **screen_layout.sh** - setting one of defined displays configuration
