@@ -66,6 +66,9 @@ set laststatus=0
 " Line numbers
 set number relativenumber                              
 
+" Show max line length
+set colorcolumn=120
+
 " Enable highlighting of the current line
 "set cursorline                         
 
