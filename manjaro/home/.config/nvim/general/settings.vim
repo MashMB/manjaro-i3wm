@@ -1,6 +1,9 @@
 " General settings for Neovim.
 
-" Enables syntax highlighing
+" Map leader key
+let g:mapleader = "\<Space>"
+
+" Enables syntax highlighting
 syntax enable                           
 
 " Required to keep multiple buffers open multiple buffers
@@ -12,7 +15,7 @@ set nowrap
 " The encoding displayed
 set encoding=utf-8                      
 
-" Makes popup menu smaller
+" Makes pop up menu smaller
 set pumheight=10                        
 
 " The encoding written to file
@@ -69,10 +72,7 @@ set number relativenumber
 " Show max line length
 set colorcolumn=120
 
-" Enable highlighting of the current line
-"set cursorline                         
-
-" tell vim what the background color looks like
+" Tell VIM what the background color looks like
 set background=dark                     
 
 " Always show tabs
@@ -81,10 +81,12 @@ set showtabline=2
 " We don't need to see things like -- INSERT -- anymore
 set noshowmode                         
 
-" This is recommended by coc
+set spell spelllang=en_us,pl
+
+" This is recommended by COC
 set nobackup                            
 
-" This is recommended by coc
+" This is recommended by COC
 set nowritebackup                       
 
 " Faster completion
@@ -93,14 +95,11 @@ set updatetime=300
 " By default timeoutlen is 1000 ms
 set timeoutlen=500                      
 
-" Stop newline continution of comments
+" Stop newline continuation of comments
 set formatoptions-=cro                  
 
-" Copy paste between vim and everything else
+" Copy paste between VIM and everything else
 set clipboard=unnamedplus               
-
-" Your working directory will always be the same as your working directory
-"set autochdir                          
 
 " Auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 au! BufWritePost $MYVIMRC source %      

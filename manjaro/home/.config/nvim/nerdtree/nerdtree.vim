@@ -1,4 +1,4 @@
-" NERDTree plugin configuration.
+" NERDTree extension configuration.
 
-" Keybinding to open NERDTree
+" Key binding to open NERDTree
 map <M-1> :NERDTreeToggle<CR>

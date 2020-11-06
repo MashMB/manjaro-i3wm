@@ -58,8 +58,15 @@ All configuration files can be found in **manjaro** directory. They are placed i
 28. **/home/.config/nvim/airline/airline.vim** - configuration for VIM Airline plugin (this file was created)
 29. **/home/.config/nvim/nerdtree/nerdtree.vim** - configuration for VIM NERDTree plugin (this file was created)
 30. **/home/.config/nvim/fzf/fzf.vim** - configuration for VIM fuzzy finder plugin (this file was created)
-31. **/home/.local/share/nvim/site/autoload/plug.vim** - Neovim plugin manager (this file was created)
-32. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
+31. **/home/.config/nvim/deoplete/deoplete.vim** - configuration for VIM deoplete plugin (this file was created)
+32. **/home/.config/nvim/fugitive/fugitive.vim** - configuration for VIM fugitive plugin (this file was created)
+33. **/home/.config/nvim/fzf-checkout/fzf-checkout.vim** - configuration for VIM fzf-checkout plugin (this file was created)
+34. **/home/.config/nvim/gruvbox/gruvbox.vim** - configuration for VIM gruvbox plugin (this file was created)
+35. **/home/.config/nvim/nerdtree-git/nerdtree-git.vim** - configuration for VIM nerdtree-git plugin (this file was created)
+36. **/home/.config/nvim/ranger/ranger.vim** - configuration for VIM ranger plugin (this file was created)
+37. **/home/.config/nvim/startify/startify.vim** - configuration for VIM startify plugin (this file was created)
+38. **/home/.local/share/nvim/site/autoload/plug.vim** - Neovim plugin manager (this file was created)
+39. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
 
 ## Automatization with bash scripts
 
