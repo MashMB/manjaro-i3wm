@@ -81,6 +81,7 @@ set showtabline=2
 " We don't need to see things like -- INSERT -- anymore
 set noshowmode                         
 
+" Set default spell check
 set spell spelllang=en_us,pl
 
 " This is recommended by COC

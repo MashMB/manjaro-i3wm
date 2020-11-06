@@ -1,67 +1,51 @@
-" IdeaVim plugin configuration (JetBrains).
+" Configuration for IdeaVim plugin (JetBrains).
 
-" Set leader key
-let mapleader = "g"
+" Map leader key
+let mapleader = ' ' 
 
-" Handle system clipboard
-set clipboard+=unnamed
-
-" The encoding displayed
-set encoding=utf-8                      
-
-" The encoding written to file
-set fileencoding=utf-8                  
+" Display long lines as just one line
+set nowrap
 
 " Show the cursor position all the time
-set ruler              			            
+set ruler
+
+" Treat dash separated words as a word text object"
+set iskeyword+=-
 
 " Enable your mouse
-set mouse=a                             
+set mouse=a
 
 " Horizontal splits will automatically be below
-set splitbelow                          
+set splitbelow
 
 " Vertical splits will automatically be to the right
-set splitright                          
+set splitright
 
-" This is recommended by coc
-set nobackup                            
-
-" This is recommended by coc
-set nowritebackup                       
-
-" Faster completion
-set updatetime=300                      
-
-" By default timeoutlen is 1000 ms
-set timeoutlen=500                      
-
-" Usage of Idea join plugin (join lines smartly)
-set ideajoin
-
-" Enable multiple cursors support
-set multiple-cursors
+" So that I can see `` in markdown files
+set conceallevel=0
 
 " Line numbers
 set number relativenumber
 
-" Show active mode
+" Show actual mode
 set showmode
 
-" Access to Idea Switcher functionality
-nmap <leader>e :action RecentFiles<cr>
+" Faster completion
+set updatetime=300
 
-" Go to next/previous tab
-nnoremap <A-k> :action PreviousTab<cr> 
-nnoremap <A-j> :action NextTab<cr> 
+" By default timeoutlen is 1000 ms
+set timeoutlen=500
+
+" Copy paste between VIM and everything else
+set clipboard=unnamed
 
 " Easier modes exit
 inoremap jk <Esc>
 inoremap kj <Esc>
 
-" Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
+" Go to next/previous tab
+nnoremap <A-j> :action PreviousTab<CR> 
+nnoremap <A-k> :action NextTab<CR> 
 
 " Better tabbing
 vnoremap < <gv
@@ -72,3 +56,57 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" Split vertically
+nmap <C-w><C-v> :action SplitVertically<CR>
+
+" Split horizontally
+nmap <C-w><C-s> :action SplitHorizontally<CR>
+
+" Restore default editor layout (hide all tools)
+nmap <C-w><C-o> :action RestoreDefaultLayout<CR>
+
+" Key binding for file fuzzy finder
+nmap <C-/> :action GotoFile<CR>
+
+" Key binding for class fuzzy finder
+nmap <leader>c/ :action GotoClass<CR>
+
+" Key binding for action fuzzy finder
+nmap <leader>a/ :action GotoAction<CR>
+
+" Key binding for everything fuzzy finder
+nmap <leader>// :action SearchEverywhere<CR>
+
+" Key binding for recent files
+nmap <leader>r :action RecentFiles<CR>
+
+" Key binding for git commit
+nmap <leader>g :action Vcs.QuickListPopupAction<CR>
+
+" Key binding for quick documentation
+nmap <leader>d :action QuickJavaDoc<CR>
+
+" Key binding for code reformat
+nmap <leader>cf :action ReformatCode<CR>
+
+" Key binding for optimize imports
+nmap <leader>oi :action OptimizeImports<CR>
+
+" Key binding for line comment
+nmap <leader>cc :action CommentByLineComment<CR>
+
+" Key binding for rename purposes
+nmap <leader>cr :action RenameElement<CR>
+
+" Key binding for go to declaration
+nmap <leader>cd :action GotoDeclaration<CR>
+
+" Key binding for go to implementation
+nmap <leader>ci :action GotoImplementation<CR>
+
+" Key binding for generate code
+nmap <leader>cg :action Generate<CR>
+
+" Key binding for code surround
+nmap <leader>cs :action SurroundWith<CR>
