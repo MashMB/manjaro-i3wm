@@ -110,3 +110,6 @@ nmap <leader>cg :action Generate<CR>
 
 " Key binding for code surround
 nmap <leader>cs :action SurroundWith<CR>
+
+" Key binding for new file creation
+nmap <leader>ma :action NewElementSamePlace<CR>
