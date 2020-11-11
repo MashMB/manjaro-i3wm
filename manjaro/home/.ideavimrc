@@ -81,7 +81,7 @@ nmap <leader>// :action SearchEverywhere<CR>
 " Key binding for recent files
 nmap <leader>r :action RecentFiles<CR>
 
-" Key binding for git commit
+" Key binding for git actions
 nmap <leader>g :action Vcs.QuickListPopupAction<CR>
 
 " Key binding for quick documentation
@@ -104,6 +104,9 @@ nmap <leader>cd :action GotoDeclaration<CR>
 
 " Key binding for go to implementation
 nmap <leader>ci :action GotoImplementation<CR>
+
+" Key binding for references
+nmap <leader>cu :action FindUsages<CR>
 
 " Key binding for generate code
 nmap <leader>cg :action Generate<CR>
