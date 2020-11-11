@@ -1,8 +1,8 @@
 " Neovim initialization file.
 
-" Raw VIM configuration
+" Configuration for Neovim out of the box
 source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/keys/mappings.vim
+source $HOME/.config/nvim/general/keys.vim
 
 " Extensions 
 call plug#begin('~/.config/nvim/plugins')
@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/plugins')
   Plug 'Shougo/deoplete.nvim'
 call plug#end()
 
-" VIM extensions configuration
+" Extensions configuration
 source $HOME/.config/nvim/nerdtree/nerdtree.vim
 source $HOME/.config/nvim/nerdtree-git/nerdtree-git.vim
 source $HOME/.config/nvim/airline/airline.vim

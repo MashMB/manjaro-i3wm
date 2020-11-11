@@ -10,4 +10,4 @@ let g:ranger_replace_netrw = 1
 let g:ranger_map_keys = 0
 
 " New key binding for ranger
-map <leader>r :Ranger<CR>
+nmap <leader>r :Ranger<CR>

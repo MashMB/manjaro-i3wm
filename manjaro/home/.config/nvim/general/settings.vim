@@ -27,7 +27,7 @@ set ruler
 " More space for displaying messages
 set cmdheight=2                         
 
-" Treat dash separated words as a word text object"
+" Treat dash separated words as a word text object
 set iskeyword+=-                      	
 
 " Enable your mouse
@@ -42,7 +42,7 @@ set splitright
 " Support 256 colors
 set t_Co=256                            
 
-" So that I can see `` in markdown files
+" So that I can see `` in Markdown files
 set conceallevel=0                      
 
 " Insert 2 spaces for a tab
@@ -51,7 +51,7 @@ set tabstop=2
 " Change the number of space characters inserted for indentation
 set shiftwidth=2                        
 
-" Makes tabbing smarter will realize you have 2 vs 4
+" Makes tabbing smarter (will know you have 2 vs 4)
 set smarttab                            
 
 " Converts tabs to spaces
@@ -72,7 +72,7 @@ set number relativenumber
 " Show max line length
 set colorcolumn=120
 
-" Tell VIM what the background color looks like
+" Dark background
 set background=dark                     
 
 " Always show tabs
@@ -93,13 +93,13 @@ set nowritebackup
 " Faster completion
 set updatetime=300                      
 
-" By default timeoutlen is 1000 ms
+" Short timeout
 set timeoutlen=500                      
 
 " Stop newline continuation of comments
 set formatoptions-=cro                  
 
-" Copy paste between VIM and everything else
+" Copy/paste between everything else
 set clipboard=unnamedplus               
 
 " Auto source when writing to init.vm alternatively you can run :source $MYVIMRC

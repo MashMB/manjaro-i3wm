@@ -10,13 +10,13 @@ nnoremap <M-l>    :vertical resize +2<CR>
 inoremap jk <Esc>
 inoremap kj <Esc>
 
-" TAB in general mode will move to text buffer
+" TAB used to go to next editor tab
 nnoremap <TAB> :tabNext<CR>
 
-" SHIFT-TAB will go back
+" SHIFT+TAB to go to previous editor tab
 nnoremap <S-TAB> :tabprevious<CR>
 
-" <TAB>: completion.
+" TAB completion
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
 " Better tabbing
