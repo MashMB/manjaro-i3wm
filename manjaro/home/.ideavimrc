@@ -9,7 +9,7 @@ set nowrap
 " Show the cursor position all the time
 set ruler
 
-" Treat dash separated words as a word text object"
+" Treat dash separated words as a word text object
 set iskeyword+=-
 
 " Enable your mouse
@@ -33,10 +33,10 @@ set showmode
 " Faster completion
 set updatetime=300
 
-" By default timeoutlen is 1000 ms
+" Short timeout
 set timeoutlen=500
 
-" Copy paste between VIM and everything else
+" Copy paste between everything else
 set clipboard=unnamed
 
 " Easier modes exit
@@ -96,7 +96,7 @@ nmap <leader>oi :action OptimizeImports<CR>
 " Key binding for line comment
 nmap <leader>cc :action CommentByLineComment<CR>
 
-" Key binding for rename purposes
+" Key binding for refactor purposes
 nmap <leader>cr :action RenameElement<CR>
 
 " Key binding for go to declaration
@@ -108,7 +108,7 @@ nmap <leader>ci :action GotoImplementation<CR>
 " Key binding for references
 nmap <leader>cu :action FindUsages<CR>
 
-" Key binding for generate code
+" Key binding for code generation
 nmap <leader>cg :action Generate<CR>
 
 " Key binding for code surround
