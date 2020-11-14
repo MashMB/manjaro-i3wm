@@ -94,7 +94,7 @@ nmap <leader>cf :action ReformatCode<CR>
 nmap <leader>oi :action OptimizeImports<CR>
 
 " Key binding for line comment
-nmap <leader>/ :action CommentByLineComment<CR>
+nmap <C-\> :action CommentByLineComment<CR>
 
 " Key binding for refactor purposes
 nmap <leader>cr :action RenameElement<CR>
