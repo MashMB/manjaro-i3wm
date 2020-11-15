@@ -390,5 +390,6 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id start_conky_maia
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+exec_always --no-startup-id xset r rate 250 80
 exec --no-startup-id redshift-gtk
 exec --no-startup-id dropbox
