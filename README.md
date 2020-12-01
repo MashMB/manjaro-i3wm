@@ -67,6 +67,7 @@ All configuration files can be found in **manjaro** directory. They are placed i
 37. **/home/.config/nvim/startify/startify.vim** - configuration for VIM startify plugin (this file was created)
 38. **/home/.local/share/nvim/site/autoload/plug.vim** - Neovim plugin manager (this file was created)
 39. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
+40. **/home/.tmux.conf** - use 256 colors in TMUX (this file was created)
 
 ## Automatization with bash scripts
 
