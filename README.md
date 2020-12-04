@@ -26,6 +26,11 @@ All configuration files can be found in **manjaro** directory. They are placed i
 2. File with **mod** in name - file that was edited by me.
 3. Original file name - it means that file was created or deleted by me.
 
+## Neovim
+
+I am really big fun of Neovim so it's configuration was extracted to independent repository that can be found 
+[here](https://github.com/MashMB/nvim-ide).
+
 ## Short list of files used in configuration
 
 1. **/home/[user_name]/.i3/config** - i3wm configuration (themed, with 20 workspaces, centered floating windows, terminal in scratchpad)
@@ -52,22 +57,8 @@ All configuration files can be found in **manjaro** directory. They are placed i
 22. **/usr/share/rofi/themes/slate.rasi** - theme for rofi to match Arc Dark system theming (this file was created)
 23. **/home/.config/dunst/dunstrc** - theming for dunst notifications to match Arc Dark system theme
 24. **/home/.config/micro/settings.json** - changed theme for micro terminal text editor (this file was created)
-25. **/home/.config/nvim/init.vim** - Neovim initialization file (this file was created)
-26. **/home/.config/nvim/general/settings.vim** - general Neovim settings (this file was created)
-27. **/home/.config/nvim/general/keys.vim** - custom keybinding for Neovim (this file was created)
-28. **/home/.config/nvim/airline/airline.vim** - configuration for VIM Airline plugin (this file was created)
-29. **/home/.config/nvim/nerdtree/nerdtree.vim** - configuration for VIM NERDTree plugin (this file was created)
-30. **/home/.config/nvim/fzf/fzf.vim** - configuration for VIM fuzzy finder plugin (this file was created)
-31. **/home/.config/nvim/deoplete/deoplete.vim** - configuration for VIM deoplete plugin (this file was created)
-32. **/home/.config/nvim/fugitive/fugitive.vim** - configuration for VIM fugitive plugin (this file was created)
-33. **/home/.config/nvim/fzf-checkout/fzf-checkout.vim** - configuration for VIM fzf-checkout plugin (this file was created)
-34. **/home/.config/nvim/gruvbox/gruvbox.vim** - configuration for VIM gruvbox plugin (this file was created)
-35. **/home/.config/nvim/nerdtree-git/nerdtree-git.vim** - configuration for VIM nerdtree-git plugin (this file was created)
-36. **/home/.config/nvim/ranger/ranger.vim** - configuration for VIM ranger plugin (this file was created)
-37. **/home/.config/nvim/startify/startify.vim** - configuration for VIM startify plugin (this file was created)
-38. **/home/.local/share/nvim/site/autoload/plug.vim** - Neovim plugin manager (this file was created)
-39. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
-40. **/home/.tmux.conf** - use 256 colors in TMUX (this file was created)
+25. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
+26. **/home/.tmux.conf** - TMUX configuration (this file was created)
 
 ## Automatization with bash scripts
 
