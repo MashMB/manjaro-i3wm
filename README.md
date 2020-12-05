@@ -57,8 +57,7 @@ I am really big fun of Neovim so it's configuration was extracted to independent
 22. **/usr/share/rofi/themes/slate.rasi** - theme for rofi to match Arc Dark system theming (this file was created)
 23. **/home/.config/dunst/dunstrc** - theming for dunst notifications to match Arc Dark system theme
 24. **/home/.config/micro/settings.json** - changed theme for micro terminal text editor (this file was created)
-25. **/home/.ideavimrc** - IdeaVim plugin configuration for JetBrains products (this file was created)
-26. **/home/.tmux.conf** - TMUX configuration (this file was created)
+25. **/home/.tmux.conf** - TMUX configuration (this file was created)
 
 ## Automatization with bash scripts
 

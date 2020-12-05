@@ -37,7 +37,7 @@ set $ws7 "7:"
 set $ws8 "8:"
 set $ws9 "9:"
 set $ws10 "10:"
-set $ws11 "11:"
+set $ws11 "11:"
 set $ws12 "12:"
 set $ws13 "13:"
 set $ws14 "14:"
@@ -155,7 +155,6 @@ assign [class="Mailspring"] $ws8
 assign [class="Spotify"] $ws9
 assign [class="Station"] $ws10
 assign [class="Microsoft Teams - Preview"] $ws10
-assign [class="JetBrains Toolbox"] $ws11
 
 # Behaviour rule for specific app
 for_window [floating] resize set 1200 800; move absolute position center
@@ -338,11 +337,8 @@ bindsym $mod+F5 exec mailspring
 # Start music player
 bindsym $mod+F6 exec spotify
 
-# Start DEV projects toolbox
-bindsym $mod+F7 exec jetbrains-toolbox
-
 # Start RSS feed reader
-bindsym $mod+F8 exec terminal -e 'newsboat'
+bindsym $mod+F7 exec terminal -e 'newsboat'
 
 ###########################
 #####     THEMING     #####

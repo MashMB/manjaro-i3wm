@@ -46,8 +46,7 @@ ${color2}Open file manager - ${color}mod+F3
 ${color2}Open messaging - ${color}mod+F4
 ${color2}Open mail - ${color}mod+F5
 ${color2}Open music player - ${color}mod+F6
-${color2}Open toolbox - ${color}mod+F7
-${color2}Open RSS reader - ${color}mod+F8
+${color2}Open RSS reader - ${color}mod+F7
 ${color2}Open alsamixer - ${color}mod+Ctrl+m
 ${color2}App switcher - ${color}mod+Tab
 ${color2}Lock - ${color}mod+Escape
