@@ -14,9 +14,9 @@ In this repository you will find my personalized configuration for Manjaro Linux
     <img src="desktop.png" />
 </p>
 
-## Arc Dark
+## Gruvbox
 
-The whole system theming was inspired by **Arc Dark** theme. For overall experiance, **GTK Arc Dark** theme with it's icons should be installed.
+The whole system theming was inspired by **Gruvbox** theme. For overall experiance, **GTK Gruvbox** theme with it's icons should be installed.
 
 ## How to move over repository?
 
@@ -52,10 +52,10 @@ I am really big fun of Neovim so it's configuration was extracted to independent
 17. **/home/[user_name]/.config/ranger/rifle.conf** - ranger configuration with **micro** as default text editor (this file was created)
 18. **/home/[user_name]/.newsboat/config** - configuration file for RSS reader named **newsboat** (Brave as main browser, this file was created)
 19. **/home/[user_name]/.newsboat/urls** - my RSS feed (this file was created)
-20. **/home/.config/gtk-3.0/settings.ini** - GTK 3 configured with Arc Dark theme and San Francisco font (this file was created)
-21. **/home/.gtkrc-2.0** - GTK 2 configured with Arc Dark theme and San Francisco font (this file was created)
-22. **/usr/share/rofi/themes/slate.rasi** - theme for rofi to match Arc Dark system theming (this file was created)
-23. **/home/.config/dunst/dunstrc** - theming for dunst notifications to match Arc Dark system theme
+20. **/home/.config/gtk-3.0/settings.ini** - GTK 3 configured with Gruvbox theme and San Francisco font (this file was created)
+21. **/home/.gtkrc-2.0** - GTK 2 configured with Gruvbox theme and San Francisco font (this file was created)
+22. **/usr/share/rofi/themes/slate.rasi** - theme for rofi to match Gruvbox system theming (this file was created)
+23. **/home/.config/dunst/dunstrc** - theming for dunst notifications to match Gruvbox system theme
 24. **/home/.config/micro/settings.json** - changed theme for micro terminal text editor (this file was created)
 25. **/home/.tmux.conf** - TMUX configuration (this file was created)
 

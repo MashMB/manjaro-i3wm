@@ -214,16 +214,16 @@ bar {
 	strip_workspace_numbers no
 
     colors {
-        background #2F343F
-        statusline #F9FAF9
-        separator  #454947
+        background #1d2021
+        statusline #d79921
+        separator  #cc241d
 
 #                          border  backgr. text
-        focused_workspace  #F9FAF9 #F9FAF9 #2F343F
-        active_workspace   #2F343F #2F343F #F9FAF9
-        inactive_workspace #2F343F #2F343F #F9FAF9
-        binding_mode       #F9FAF9 #F9FAF9 #2F343F
-        urgent_workspace   #F9FAF9 #F9FAF9 #2F343F
+        focused_workspace  #689d68 #689d68 #1d2021
+        active_workspace   #1d2021 #1d2021 #d79921
+        inactive_workspace #1d2021 #1d2021 #d79921
+#        binding_mode       #F9FAF9 #F9FAF9 #2F343F
+        urgent_workspace   #cc241d #cc241d #1d2021
     }
 }
 
@@ -366,12 +366,12 @@ set_from_resource $term_color15    color15
 
 # Workspace
 # Class					border	backgr. text	indic. 	child_border
-client.focused          #404552 #404552 #9BA2B3 #5294E2	#5294E2
-client.focused_inactive #2F343F #2F343F #595F6D #454948
-client.unfocused        #2F343F #2F343F #595F6D #454948
-client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
-client.placeholder      #000000 #0C0C0C #FFFFFF #000000 
-client.background       #2B2C2B
+client.focused          #458588 #458588 #1d2021 #b16286	#d79921
+client.focused_inactive #1d2021 #1d2021 #d79921 #b16286
+client.unfocused        #1d2021 #1d2021 #d79921 #b16286
+client.urgent           #cc241d #cc241d #ffffff #cc241d
+# client.placeholder      #000000 #0C0C0C #FFFFFF #000000 
+client.background       #1d2021
 
 #############################
 #####     AUTOSTART     #####

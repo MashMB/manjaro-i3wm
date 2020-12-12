@@ -1,6 +1,6 @@
 [global]
     frame_width = 2
-    frame_color = "#5294e2"
+    frame_color = "#d79921"
     
     font = SFNS Display 10
     
@@ -181,18 +181,18 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#404552"
-    foreground = "#b3bdcb"
+    background = "#1d2021"
+    foreground = "#a89984"
     timeout = 10
 
 [urgency_normal]
-    background = "#404552"
-    foreground = "#b3bdcb"
+    background = "#1d2021"
+    foreground = "#a89984"
     timeout = 10
 
 [urgency_critical]
-    background = "#404552"
-    foreground = "#b3bdcb"
+    background = "#1d2021"
+    foreground = "#a89984"
     timeout = 0
 
 
@@ -272,22 +272,22 @@
 #    foreground = "#FFFFFF"
 #
 [irc]
-        appname = weechat
-        timeout = 0
-        background = "#0033bb"
-        foreground = "#dddddd"
+     appname = weechat
+     timeout = 0
+     background = "#1d2021"
+     foreground = "#a89984"
 #
 [weechat hl]
      appname = weechat
      category = weechat.HL
-     background = "#FF5C47"
-     foreground = "#FFFFFF"
+     background = "#1d2021"
+     foreground = "#a89984"
 #
 [weechat pn]
      appname = weechat
      category = weechat.PM
-     background = "#D53B84"
-     foreground = "#FFFFFF"
+     background = "#1d2021"
+     foreground = "#a89984"
 #
 #[CMUS]
 #    appname = CMUS
